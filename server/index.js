@@ -11,7 +11,6 @@ app.use(bodyParser.json());
 app.use(cors());
 
 app.post("/", async (req, res) => {
-  console.log(req.body);
   const response = await checkKey(req.body.score, req.body.key);
   res.send(response);
 });
