@@ -1,0 +1,14 @@
+.App {
+  width: 400px;
+  margin: 0 auto;
+}
+
+input[type="text"] {
+  padding: 10px;
+  font-size: 32px;
+  width: 400px;
+}
+
+label {
+  display: block;
+}
